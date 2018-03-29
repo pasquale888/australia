@@ -174,6 +174,7 @@ figure {
 }
 
 @media screen and (max-width: 768px) {
+
   .fh5co-cover .desc h2 {
     font-size: 40px;
   }
@@ -203,9 +204,6 @@ figure {
   }
   #ricevimento {
     top: 20%;
-  }
-  .fh5co-listing {
-    margin-top: -10em;
   }
   
 }
@@ -250,7 +248,7 @@ figure {
 @media screen and (max-width: 768px) {
  
   .fh5co-listing {
-    margin-top: -10em;
+    margin-top: -15em;
   }
   
 }
