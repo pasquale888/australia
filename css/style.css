@@ -334,6 +334,13 @@ figure {
   line-height: 35px;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  #detail {
+    font-size: 20px;
+  }
+}
+
 .fh5co-news ul li a:hover {
   background: #000;
   padding-left: 30px;
