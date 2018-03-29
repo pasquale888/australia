@@ -173,14 +173,17 @@ figure {
   top: 10%;
 }
 
+@media screen and (max-width: 1500px) {
+
+  #iban {
+    font-size: 22px;
+  }
+}
+
 @media screen and (max-width: 768px) {
 
   .fh5co-cover .desc h2 {
     font-size: 40px;
-  }
-
-  #iban {
-    font-size: 22px;
   }
 
   #sposi {
