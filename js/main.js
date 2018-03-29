@@ -70,6 +70,7 @@
 
 
 			$('#offcanvas-menu').css('height', w.height());
+			$('#offcanvas-menu').css('display', 'none');
 
 			if ( w.width() > 769 ) {
 				if ( $('body').hasClass('fh5co-offcanvas') ) {

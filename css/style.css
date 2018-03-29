@@ -165,9 +165,12 @@ figure {
   font-size: 50px;
 }
 
-#sposi {
-  width: 100%;
-  height: 100%;
+#mini-menu {
+  display: none;
+}
+
+#ricevimento {
+  top: 10%;
 }
 
 @media screen and (max-width: 768px) {
@@ -176,9 +179,37 @@ figure {
   }
 
   #iban {
-    font-size: 25px;
+    font-size: 22px;
   }
+
+  #sposi {
+    width: 100%;
+    height: 100%;
+  }
+
+  #mini-menu {
+    display: inline;
+  }
+
+  #mini-drop {
+    background: #222;
+  }
+
+  #mini-drop > li > a {
+    color: white;
+  }
+  p, ul, ol {
+    font-size: 14px;
+  }
+  #ricevimento {
+    top: 20%;
+  }
+  .fh5co-listing {
+    margin-top: -10em;
+  }
+  
 }
+
 .fh5co-cover .desc span {
   display: block;
   margin-bottom: 30px;
@@ -215,6 +246,13 @@ figure {
   width: 100%;
   margin-top: -5em;
   padding-bottom: 5em;
+}
+@media screen and (max-width: 768px) {
+ 
+  .fh5co-listing {
+    margin-top: -10em;
+  }
+  
 }
 .fh5co-listing .fh5co-item-wrap {
   padding-left: 10px;
@@ -850,7 +888,9 @@ figure {
   width: 240px;
   padding: 20px;
   overflow-y: scroll !important;
+  display: none;
 }
+
 #offcanvas-menu ul {
   padding: 0;
   margin: 0;
