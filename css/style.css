@@ -163,20 +163,17 @@ figure {
 
 #iban {
   font-size: 50px;
+  font-style: italic;
 }
 
 #mini-menu {
   display: none;
 }
 
-#ricevimento {
-  top: 20%;
-}
-
 @media screen and (max-width: 1500px) {
 
   #iban {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -204,9 +201,6 @@ figure {
   }
   p, ul, ol {
     font-size: 14px;
-  }
-  #ricevimento {
-    top: 20%;
   }
   
 }
@@ -865,6 +859,7 @@ figure {
 .phrase {
   font-size: 30px; 
   color:white;
+  font-style: italic;
 }
 
 @media screen and (max-width: 768px) {
@@ -1126,3 +1121,13 @@ figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+.btn.dropdown-toggle {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.cerimonia-h2 {
+  font-size: 40px !important;
+}
