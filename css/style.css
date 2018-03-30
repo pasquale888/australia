@@ -125,7 +125,7 @@ figure {
 .fh5co-cover .btn {
   padding: 1em 3em;
   opacity: .9;
-  background: #83CC61 !important;
+  background:#eea236 !important;
 }
 .fh5co-cover.fh5co-cover_2 {
   height: 600px;
@@ -517,7 +517,7 @@ figure {
   font-size: 24px;
   text-transform: uppercase;
   margin-top: 35px;
-  font-weight: 700;
+  /*font-weight: 700;*/
   float: left;
 }
 #fh5co-logo span {
