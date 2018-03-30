@@ -112,13 +112,16 @@
 							</p>
 						</div>
 						<div class="col-md-5 col-sm-5">
-								<p class="phrase">
-										IBAN:
-									</p>
+							<p class="phrase">
+								IBAN:
+							</p>
 							<h2 id="iban">IT25D0100502408000000002332</h2>
 							<p class="phrase">
 								Cautela Pasquale e Laura Pierro
 							</p>
+							<button id="ibanButton" type="button" class="btn btn-warning" onclick="copyToClipboard('iban')">
+								Copia Iban
+							</button>
 						</div>
 						<div class="col-md-1 col-sm-1"></div>
 					</div>
@@ -139,14 +142,8 @@
 				</div>
 			</footer>
 
-
 		</div>
-		<!-- END fh5co-page -->
-
 	</div>
-	<!-- END fh5co-wrapper -->
-
-	<!-- jQuery -->
 
 
 	<script src="js/jquery.min.js"></script>
@@ -164,6 +161,30 @@
 
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
+	<script>
+		function copyToClipboard(elementId) {
+
+			// Create an auxiliary hidden input
+			var aux = document.createElement("input");
+
+			// Get the text from the element passed into the input
+			aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+
+			// Append the aux input to the body
+			document.body.appendChild(aux);
+
+			// Highlight the content
+			aux.select();
+
+			// Execute the copy command
+			document.execCommand("copy");
+
+			// Remove the input from the body
+			document.body.removeChild(aux);
+
+		}
+
+	</script>
 
 </body>
 
